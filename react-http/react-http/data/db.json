@@ -1,0 +1,80 @@
+{
+  "products": [
+    {
+      "name": "capa de chuva",
+      "price": "10.50",
+      "id": "5"
+    },
+    {
+      "name": "teclado",
+      "price": "79.90",
+      "id": "6"
+    },
+    {
+      "name": "cadeira",
+      "price": "499.99",
+      "id": "7"
+    },
+    {
+      "name": "notebook",
+      "price": "3999.99",
+      "id": "u1Bp7J6gxeI"
+    },
+    {
+      "name": "notebook",
+      "price": "3999.99",
+      "id": "_8IosNr2bX0"
+    },
+    {
+      "name": "mouse",
+      "price": "39.99",
+      "id": "klJwWdkAtN4"
+    },
+    {
+      "name": "monitor curvo",
+      "price": "1999.99",
+      "id": "Sk3ITy4qfaI"
+    },
+    {
+      "name": "mesa madeira",
+      "price": "299.99",
+      "id": "qFdJDMqw1bM"
+    },
+    {
+      "name": "tablet",
+      "price": "1599.99",
+      "id": "-Krx1qdnfPA"
+    },
+    {
+      "name": "Mouse branco",
+      "price": "29.99",
+      "id": "atrFHT7aBxA"
+    },
+    {
+      "name": "Mouse pad",
+      "price": "39.99",
+      "id": "eJlZndo1Vvg"
+    },
+    {
+      "name": "Mouse pad super man",
+      "price": "59.99",
+      "id": "ivOyhcLpWwg"
+    },
+    {
+      "name": "Mouse pad lula molusco",
+      "price": "59.99",
+      "id": "xPp53Bto-e0"
+    },
+    {
+      "name": "Mouse pad bob esponja",
+      "price": "59.99",
+      "id": "-3JTQzCwrBA"
+    },
+    {
+      "name": "Mouse pad mulher maravilha",
+      "price": "59.99",
+      "id": "n1cpzPtr_ZQ"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
