@@ -14,7 +14,13 @@ import Home from './routes/Home.jsx';
 //Rota Dinâmica
 import Product from './routes/Product.jsx';
 
-import { createBrowserRouter, RouterProvider, Route } from 'react-router-dom';
+//Rota aninhada
+import Info from './routes/Info.jsx';
+
+//Search Params
+import Search from './routes/Search.jsx';
+
+import { createBrowserRouter, RouterProvider, Route, Navigate } from 'react-router-dom';
 
 
 const router = createBrowserRouter([
@@ -34,6 +40,20 @@ const router = createBrowserRouter([
     {
       path: "products/:id",
       element: <Product />
+    },
+    {
+      path: "products/:id/info",
+      element: <Info />
+    },
+    {
+      path: "search",
+      element: <Search />
+    },
+
+    //redirecionamento
+    {
+      path: "paginainicial",
+      element: <Navigate to="/" />
     }
   ]
 },

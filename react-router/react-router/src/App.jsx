@@ -5,13 +5,17 @@ import { Outlet } from 'react-router-dom';
 //Link de navegação entre páginas
 import Navbar from './components/navbar';
 
+//Search Form
+import SearchParams from './components/SearchParams';
+
 const App = () => {
   return (
     <div>
       <>
         <div className="App">
           <Navbar />
-            <Outlet />
+          <SearchParams />
+          <Outlet />
           <p>Footer</p>
         </div>
       </>
@@ -19,4 +23,4 @@ const App = () => {
   )
 }
 
-export default App
+export default App;
